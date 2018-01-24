@@ -13,6 +13,8 @@
 		4A02B7002018E38600B92AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A02B6FF2018E38600B92AF7 /* Assets.xcassets */; };
 		4A02B7032018E38600B92AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A02B7012018E38600B92AF7 /* LaunchScreen.storyboard */; };
 		4A02B70E2018E38600B92AF7 /* Air_QualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02B70D2018E38600B92AF7 /* Air_QualityTests.swift */; };
+		A07FA1D067DCA0A8D62639F9 /* Pods_Air_QualityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB851B37DEA458E2F7FBF4 /* Pods_Air_QualityTests.framework */; };
+		C4D8278400FB230862067097 /* Pods_Air_Quality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A38AFF85DDD9A2A55DAA45 /* Pods_Air_Quality.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154DC9D0F18846E529625696 /* Pods-Air Quality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Quality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality.debug.xcconfig"; sourceTree = "<group>"; };
+		15A38AFF85DDD9A2A55DAA45 /* Pods_Air_Quality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Air_Quality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB851B37DEA458E2F7FBF4 /* Pods_Air_QualityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Air_QualityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A02B6F52018E38600B92AF7 /* Air Quality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Quality.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A02B6F82018E38600B92AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A02B6FA2018E38600B92AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		4A02B7092018E38600B92AF7 /* Air QualityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air QualityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A02B70D2018E38600B92AF7 /* Air_QualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_QualityTests.swift; sourceTree = "<group>"; };
 		4A02B70F2018E38600B92AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979DF065C6EC62A3D6E521C8 /* Pods-Air QualityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air QualityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1FC27E644DED67AEAD94709 /* Pods-Air Quality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Quality.release.xcconfig"; path = "Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality.release.xcconfig"; sourceTree = "<group>"; };
+		F03EC37B0DA202C63120A6BF /* Pods-Air QualityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air QualityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D8278400FB230862067097 /* Pods_Air_Quality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07FA1D067DCA0A8D62639F9 /* Pods_Air_QualityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0531A3D6A6039DEC57A47A2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154DC9D0F18846E529625696 /* Pods-Air Quality.debug.xcconfig */,
+				E1FC27E644DED67AEAD94709 /* Pods-Air Quality.release.xcconfig */,
+				F03EC37B0DA202C63120A6BF /* Pods-Air QualityTests.debug.xcconfig */,
+				979DF065C6EC62A3D6E521C8 /* Pods-Air QualityTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4A02B6EC2018E38600B92AF7 = {
 			isa = PBXGroup;
 			children = (
 				4A02B6F72018E38600B92AF7 /* Air Quality */,
 				4A02B70C2018E38600B92AF7 /* Air QualityTests */,
 				4A02B6F62018E38600B92AF7 /* Products */,
+				0531A3D6A6039DEC57A47A2D /* Pods */,
+				9850CA5D925EDB8EB18272D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = "Air QualityTests";
 			sourceTree = "<group>";
 		};
+		9850CA5D925EDB8EB18272D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A38AFF85DDD9A2A55DAA45 /* Pods_Air_Quality.framework */,
+				42EB851B37DEA458E2F7FBF4 /* Pods_Air_QualityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A02B7122018E38600B92AF7 /* Build configuration list for PBXNativeTarget "Air Quality" */;
 			buildPhases = (
+				97A319B35A708CFA81E6AFC0 /* [CP] Check Pods Manifest.lock */,
 				4A02B6F12018E38600B92AF7 /* Sources */,
 				4A02B6F22018E38600B92AF7 /* Frameworks */,
 				4A02B6F32018E38600B92AF7 /* Resources */,
+				7F98F4BD0A0FD31FC29475AE /* [CP] Embed Pods Frameworks */,
+				2C3CEB5585985023048E532A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A02B7152018E38600B92AF7 /* Build configuration list for PBXNativeTarget "Air QualityTests" */;
 			buildPhases = (
+				D2F33F2B12CB14FC12B01592 /* [CP] Check Pods Manifest.lock */,
 				4A02B7052018E38600B92AF7 /* Sources */,
 				4A02B7062018E38600B92AF7 /* Frameworks */,
 				4A02B7072018E38600B92AF7 /* Resources */,
+				3A9636E6A89A732BC8BB27C3 /* [CP] Embed Pods Frameworks */,
+				E7637C4A9AE4F1E882534BDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,120 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C3CEB5585985023048E532A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A9636E6A89A732BC8BB27C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F98F4BD0A0FD31FC29475AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A319B35A708CFA81E6AFC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Air Quality-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F33F2B12CB14FC12B01592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Air QualityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7637C4A9AE4F1E882534BDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A02B6F12018E38600B92AF7 /* Sources */ = {
@@ -351,6 +503,7 @@
 		};
 		4A02B7132018E38600B92AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154DC9D0F18846E529625696 /* Pods-Air Quality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +519,7 @@
 		};
 		4A02B7142018E38600B92AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FC27E644DED67AEAD94709 /* Pods-Air Quality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +535,7 @@
 		};
 		4A02B7162018E38600B92AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03EC37B0DA202C63120A6BF /* Pods-Air QualityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +553,7 @@
 		};
 		4A02B7172018E38600B92AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979DF065C6EC62A3D6E521C8 /* Pods-Air QualityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
