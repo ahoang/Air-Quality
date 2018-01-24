@@ -1,12 +1,12 @@
 # Air-Quality
 
 ## Dependences
-R.Swift
+[R.Swift](https://github.com/mac-cain13/R.swift)
 
-Alamofire
+[Alamofire](https://github.com/Alamofire/Alamofire)
 
-PromiseKit
+[PromiseKit](https://github.com/mxcl/PromiseKit)
 
-RxSwift
+[RxSwift](https://github.com/ReactiveX/RxSwift)
 
-SVProgressHUD
+[SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
