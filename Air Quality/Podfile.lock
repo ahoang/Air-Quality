@@ -2,6 +2,7 @@ PODS:
   - Alamofire (4.6.0)
   - AlamofireImage (3.3.0):
     - Alamofire (~> 4.5)
+  - Differentiator (3.0.2)
   - PromiseKit (4.5.1):
     - PromiseKit/Foundation (= 4.5.1)
     - PromiseKit/QuartzCore (= 4.5.1)
@@ -18,8 +19,13 @@ PODS:
   - R.swift.Library (4.0.0)
   - RxCocoa (4.1.1):
     - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - RxSwift (4.1.1)
   - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
@@ -27,19 +33,24 @@ DEPENDENCIES:
   - PromiseKit (~> 4.4)
   - R.swift (~> 4.0)
   - RxCocoa (~> 4.1)
+  - RxDataSources (~> 3.0)
   - RxSwift (~> 4.1)
   - SVProgressHUD (~> 2.2)
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   PromiseKit: 445dac9b2c3c3b4b31b5f842bc325700b848a8bd
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
   RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: f90d932dd86485bb61fdbfbb8b7f57499b1bade8
+PODFILE CHECKSUM: 4bf92281febb42176b1da660b2c47c2e2eb695c9
 
 COCOAPODS: 1.4.0.beta.2
