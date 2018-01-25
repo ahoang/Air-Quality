@@ -10,6 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import RxDataSources
+import SwiftMessages
 
 class CitiesListTableViewController: UITableViewController {
 
@@ -19,32 +20,45 @@ class CitiesListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        self.refreshControl = UIRefreshControl()
+        self.refreshControl?.addTarget(self, action: #selector(CitiesListTableViewController.refresh), for: .valueChanged)
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.viewModel.rxError.subscribe(onNext: { [weak self] (message) in
+            if let message = message {
+                self?.displayErrorMessage(message)
+            }
+
+            self?.refreshControl?.endRefreshing()
+        }).disposed(by: disposeBag)
 
         self.bindTableData()
+        self.refreshControl?.beginRefreshing()
+        self.tableView.setContentOffset(CGPoint(x: 0, y: -20), animated: false)
         self.viewModel.reloadCities()
-
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func refresh() {
+        SwiftMessages.hide()
+        self.viewModel.reloadCities()
     }
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+    private func displayErrorMessage(_ message: String) {
+        let view = MessageView.viewFromNib(layout: .statusLine)
+        view.configureTheme(.error)
+        view.configureDropShadow()
+        view.configureContent(body: message)
+        var config = SwiftMessages.Config()
+        config.duration = .forever
+        SwiftMessages.show(config: config, view: view)
     }
+}
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+extension CitiesListTableViewController {
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        // last cell displayed... get next page
+        if indexPath.row == tableView.numberOfRows(inSection: indexPath.section) - 1 {
+            self.viewModel.nextPageIfNeeded()
+        }
     }
 }
 
@@ -63,7 +77,6 @@ extension CitiesListTableViewController {
 
         let dataSource = RxTableViewSectionedAnimatedDataSource<DataType>(
             configureCell: { _, tableView, indexPath, model in
-
                 let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.cityCell, for: indexPath)
 
                 cell?.textLabel?.text = model.city.name
@@ -75,8 +88,10 @@ extension CitiesListTableViewController {
 
         viewModel
             .rxCities
-            .map { userViewModels -> [DataType] in
-                [AnimatableSectionModel(model: .cities, items: userViewModels)]
+            .map { [weak self] cityViewModels -> [DataType] in
+                self?.refreshControl?.endRefreshing()
+                SwiftMessages.hide()
+                return [AnimatableSectionModel(model: .cities, items: cityViewModels)]
             }
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
@@ -86,6 +101,6 @@ extension CitiesListTableViewController {
 extension CityViewModel: IdentifiableType {
 
     var identity: String {
-        return city.name
+        return city.name + city.country
     }
 }

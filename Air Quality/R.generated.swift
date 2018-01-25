@@ -108,7 +108,7 @@ struct _R {
     }
     
     struct main: Rswift.StoryboardResourceWithInitialControllerType {
-      typealias InitialController = CitiesListTableViewController
+      typealias InitialController = UIKit.UINavigationController
       
       let bundle = R.hostingBundle
       let name = "Main"

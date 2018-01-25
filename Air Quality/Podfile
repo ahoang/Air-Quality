@@ -12,6 +12,8 @@ target 'Air Quality' do
   pod 'RxCocoa', '~> 4.1'
   pod 'RxDataSources', '~> 3.0'
   pod 'SwiftyJSON'
+  pod 'SwiftMessages'
+  pod 'OHHTTPStubs', '~> 6.1.0
 
   target 'Air QualityTests' do
     inherit! :search_paths

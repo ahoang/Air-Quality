@@ -12,37 +12,72 @@ import PromiseKit
 
 class CitiesListViewModel {
 
-    private var currentPage = 0
+    private var currentPage = 1
     private var cities = Variable<[City]>([])
     private let service = OpenAQService()
+    private var queue: DispatchQueue
+    private var loadNextPage = true
     var rxCities: Observable<[CityViewModel]> {
         return cities.asObservable().map({ $0.map({ CityViewModel(city: $0 )}) })
     }
 
+    private var error = Variable<String?>(nil)
+    var rxError: Observable<String?> {
+        return error.asObservable()
+    }
+
+    init() {
+        self.queue = DispatchQueue(label: Constants.PagingThreadName)
+    }
+
     private func fetchCities() -> Promise<[City]> {
         return Promise { [weak self] resolver, _ in
-            service.getCities(self?.currentPage ?? 0).then { [weak self] (json) -> Void in
-                if let cities = json["results"].array?.map({ City(json: $0) }).flatMap({ $0 }) {
+            self?.service.getCities(self?.currentPage ?? 0).then { [weak self] (json) -> Void in
+                if let cities = json["results"].array?.map({ City(json: $0) }).flatMap({ $0 }).filter({ $0.measurements > Constants.MinimumMeasurements}) {
                     resolver(cities)
                 }
 
                 if let meta = json["meta"].dictionary, let page = meta["page"]?.int {
                     self?.currentPage = page
                 }
+                }.catch { [weak self] _ in
+                    self?.error.value = Constants.GenericErrorMessage
             }
         }
     }
 
     func reloadCities() {
-        self.currentPage = 0
+        self.currentPage = 1
         self.fetchCities().then { [weak self] cities -> Void in
             self?.cities.value = cities
+            self?.loadNextPage = true
         }
     }
 
-    func nextPage() {
-        self.fetchCities().then { [weak self] cities -> Void in
-            self?.cities.value += cities
+    func nextPageIfNeeded() {
+        // guard against fast scrolling, don't make network request until previous request has finished
+        self.queue.async(flags: .barrier) { [weak self] in
+            guard let strongSelf = self else {
+                return
+            }
+
+            if strongSelf.loadNextPage {
+                strongSelf.loadNextPage = false
+                strongSelf.currentPage += 1
+
+                strongSelf.fetchCities().then { cities -> Void in
+                    strongSelf.cities.value += cities
+                    strongSelf.loadNextPage = cities.count != 0 // if there are no more results, don't make any more requests for next page
+                }
+            }
         }
+    }
+}
+
+extension CitiesListViewModel {
+    private enum Constants {
+        static let GenericErrorMessage = "There was a problem loading cities."
+        static let MinimumMeasurements = 10000
+        static let PagingThreadName = "com.airquality.pagequeue"
     }
 }

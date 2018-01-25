@@ -14,8 +14,14 @@ import SwiftyJSON
 class OpenAQService {
     func getCities(_ page: Int) -> Promise<JSON> {
         return Promise  { (resolve, reject) in
-            let params = ["sort" : "desc", "order_by" : "count"]
+            DispatchQueue.main.async {
+                UIApplication.shared.isNetworkActivityIndicatorVisible = true
+            }
+
+            let params = ["sort" : "desc", "order_by" : "count", "page" : "\(page)"]
             Alamofire.request(Constants.url, parameters: params).responseJSON(completionHandler: { (response) in
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+
                 do {
                     if let data = response.data {
                         let json = try JSON(data: data)

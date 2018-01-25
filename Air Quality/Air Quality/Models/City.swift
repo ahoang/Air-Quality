@@ -32,6 +32,8 @@ class City {
 
 extension City: Equatable {
     static func ==(lhs: City, rhs: City) -> Bool {
-        return lhs.name == rhs.name
+        return lhs.name + lhs.country == rhs.name + rhs.country
+        && lhs.country == rhs.country
+        && lhs.measurements == rhs.measurements
     }
 }

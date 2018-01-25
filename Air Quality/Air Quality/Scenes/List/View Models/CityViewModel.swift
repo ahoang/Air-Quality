@@ -19,5 +19,6 @@ class CityViewModel {
 extension CityViewModel: Equatable {
     static func ==(lhs: CityViewModel, rhs: CityViewModel) -> Bool {
         return lhs.city == rhs.city
+
     }
 }
