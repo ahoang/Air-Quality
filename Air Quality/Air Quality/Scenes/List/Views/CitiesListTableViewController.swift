@@ -55,8 +55,8 @@ class CitiesListTableViewController: UITableViewController {
 
 extension CitiesListTableViewController {
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        // last cell displayed... get next page
-        if indexPath.row == tableView.numberOfRows(inSection: indexPath.section) - 1 {
+        // get next page once user is half way down
+        if indexPath.row == tableView.numberOfRows(inSection: indexPath.section) / 2 {
             self.viewModel.nextPageIfNeeded()
         }
     }
