@@ -1,9 +1,6 @@
 # Air-Quality
 
 ## Dependences
-### [R.Swift](https://github.com/mac-cain13/R.swift)
-Creates strongy typed constants from resource files.
-
 ### [Alamofire](https://github.com/Alamofire/Alamofire)
 Used for network requests
 
