@@ -79,8 +79,8 @@ extension CitiesListTableViewController {
             configureCell: { _, tableView, indexPath, model in
                 let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.cityCell, for: indexPath)
 
-                cell?.textLabel?.text = model.city.name
-                cell?.detailTextLabel?.text = "\(model.city.measurements)"
+                cell?.textLabel?.text = model.name
+                cell?.detailTextLabel?.text = model.measurements
                 return cell ?? UITableViewCell()
         })
 
@@ -95,12 +95,5 @@ extension CitiesListTableViewController {
             }
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
-    }
-}
-
-extension CityViewModel: IdentifiableType {
-
-    var identity: String {
-        return city.name + city.country
     }
 }

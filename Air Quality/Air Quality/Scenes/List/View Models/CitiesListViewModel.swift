@@ -17,6 +17,7 @@ class CitiesListViewModel {
     private let service = OpenAQService()
     private var queue: DispatchQueue
     private var loadNextPage = true
+    
     var rxCities: Observable<[CityViewModel]> {
         return cities.asObservable().map({ $0.map({ CityViewModel(city: $0 )}) })
     }
@@ -40,6 +41,7 @@ class CitiesListViewModel {
                 if let meta = json["meta"].dictionary, let page = meta["page"]?.int {
                     self?.currentPage = page
                 }
+
                 }.catch { [weak self] _ in
                     self?.error.value = Constants.GenericErrorMessage
             }
@@ -50,7 +52,7 @@ class CitiesListViewModel {
         self.currentPage = 1
         self.fetchCities().then { [weak self] cities -> Void in
             self?.cities.value = cities
-            self?.loadNextPage = true
+            self?.setCanLoad(true)
         }
     }
 
@@ -67,9 +69,15 @@ class CitiesListViewModel {
 
                 strongSelf.fetchCities().then { cities -> Void in
                     strongSelf.cities.value += cities
-                    strongSelf.loadNextPage = cities.count != 0 // if there are no more results, don't make any more requests for next page
+                    strongSelf.setCanLoad(cities.count != 0) // if there are no more results, don't make any more requests for next page
                 }
             }
+        }
+    }
+
+    private func setCanLoad(_ canLoad: Bool) {
+        self.queue.async(flags: .barrier) { [weak self] in
+            self?.loadNextPage = canLoad
         }
     }
 }

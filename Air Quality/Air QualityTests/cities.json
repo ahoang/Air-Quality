@@ -1,0 +1,612 @@
+{
+    "meta": {
+        "name": "openaq-api",
+        "license": "CC BY 4.0",
+        "website": "https://docs.openaq.org/",
+        "page": 7,
+        "limit": 100,
+        "found": 2020
+    },
+    "results": [
+                {
+                "city": "Araraquara",
+                "country": "BR",
+                "locations": 1,
+                "count": 43643
+                },
+                {
+                "city": "Velsen",
+                "country": "NL",
+                "locations": 2,
+                "count": 43534
+                },
+                {
+                "city": "Wilmington",
+                "country": "US",
+                "locations": 3,
+                "count": 43456
+                },
+                {
+                "city": "Marília",
+                "country": "BR",
+                "locations": 1,
+                "count": 43337
+                },
+                {
+                "city": "Mae Hong Son",
+                "country": "TH",
+                "locations": 1,
+                "count": 43316
+                },
+                {
+                "city": "Chachoengsao",
+                "country": "TH",
+                "locations": 1,
+                "count": 43304
+                },
+                {
+                "city": "Sorocaba",
+                "country": "BR",
+                "locations": 1,
+                "count": 43249
+                },
+                {
+                "city": "Preston",
+                "country": "GB",
+                "locations": 1,
+                "count": 43158
+                },
+                {
+                "city": "Loire",
+                "country": "FR",
+                "locations": 6,
+                "count": 43092
+                },
+                {
+                "city": "Jaú",
+                "country": "BR",
+                "locations": 1,
+                "count": 42803
+                },
+                {
+                "city": "AIR C.O.M. (CALVADOS, ORNE, MANCHE)",
+                "country": "FR",
+                "locations": 10,
+                "count": 42755
+                },
+                {
+                "city": "Barnsley",
+                "country": "GB",
+                "locations": 1,
+                "count": 42536
+                },
+                {
+                "city": "Auchencorth",
+                "country": "GB",
+                "locations": 1,
+                "count": 42490
+                },
+                {
+                "city": "Blackpool",
+                "country": "GB",
+                "locations": 1,
+                "count": 42412
+                },
+                {
+                "city": "Haute-Garonne",
+                "country": "FR",
+                "locations": 9,
+                "count": 42381
+                },
+                {
+                "city": "Chiguayante",
+                "country": "CL",
+                "locations": 1,
+                "count": 42342
+                },
+                {
+                "city": "LINCOLN",
+                "country": "US",
+                "locations": 3,
+                "count": 42312
+                },
+                {
+                "city": "Warrington",
+                "country": "GB",
+                "locations": 1,
+                "count": 41994
+                },
+                {
+                "city": "COLUSA",
+                "country": "US",
+                "locations": 2,
+                "count": 41944
+                },
+                {
+                "city": "Greensboro-High Point",
+                "country": "US",
+                "locations": 2,
+                "count": 41932
+                },
+                {
+                "city": "Ladybower",
+                "country": "GB",
+                "locations": 1,
+                "count": 41912
+                },
+                {
+                "city": "Phuket",
+                "country": "TH",
+                "locations": 1,
+                "count": 41731
+                },
+                {
+                "city": "Nonthaburi",
+                "country": "TH",
+                "locations": 2,
+                "count": 41661
+                },
+                {
+                "city": "Haut-Rhin",
+                "country": "FR",
+                "locations": 10,
+                "count": 41648
+                },
+                {
+                "city": "Hérault",
+                "country": "FR",
+                "locations": 11,
+                "count": 41590
+                },
+                {
+                "city": "Taboão da Serra",
+                "country": "BR",
+                "locations": 1,
+                "count": 41437
+                },
+                {
+                "city": "MANITOBA",
+                "country": "CA",
+                "locations": 4,
+                "count": 41367
+                },
+                {
+                "city": "Gyor-Moson-Sopron",
+                "country": "HU",
+                "locations": 4,
+                "count": 41279
+                },
+                {
+                "city": "Chepstow",
+                "country": "GB",
+                "locations": 1,
+                "count": 41209
+                },
+                {
+                "city": "Fredrikstad",
+                "country": "NO",
+                "locations": 2,
+                "count": 41181
+                },
+                {
+                "city": "Grand Junction",
+                "country": "US",
+                "locations": 3,
+                "count": 41115
+                },
+                {
+                "city": "La Rioja",
+                "country": "ES",
+                "locations": 5,
+                "count": 41093
+                },
+                {
+                "city": "Clinton",
+                "country": "US",
+                "locations": 2,
+                "count": 41070
+                },
+                {
+                "city": "Wicken Fen",
+                "country": "GB",
+                "locations": 1,
+                "count": 41023
+                },
+                {
+                "city": "Los Angeles",
+                "country": "CL",
+                "locations": 2,
+                "count": 41018
+                },
+                {
+                "city": "Viña del Mar",
+                "country": "CL",
+                "locations": 1,
+                "count": 41014
+                },
+                {
+                "city": "Lullington Heath",
+                "country": "GB",
+                "locations": 1,
+                "count": 40945
+                },
+                {
+                "city": "Swansea",
+                "country": "GB",
+                "locations": 1,
+                "count": 40916
+                },
+                {
+                "city": "DODGE",
+                "country": "US",
+                "locations": 1,
+                "count": 40733
+                },
+                {
+                "city": "Chattanooga",
+                "country": "US",
+                "locations": 6,
+                "count": 40675
+                },
+                {
+                "city": "Karabük",
+                "country": "TR",
+                "locations": 2,
+                "count": 40524
+                },
+                {
+                "city": "LAKE",
+                "country": "US",
+                "locations": 4,
+                "count": 40489
+                },
+                {
+                "city": "Zlínský",
+                "country": "CZ",
+                "locations": 5,
+                "count": 40378
+                },
+                {
+                "city": "Wigan",
+                "country": "GB",
+                "locations": 1,
+                "count": 40375
+                },
+                {
+                "city": "Anchorage",
+                "country": "US",
+                "locations": 2,
+                "count": 40373
+                },
+                {
+                "city": "Seine-Saint-Denis",
+                "country": "FR",
+                "locations": 7,
+                "count": 40370
+                },
+                {
+                "city": "Luxemburg",
+                "country": "LU",
+                "locations": 4,
+                "count": 40142
+                },
+                {
+                "city": "Hualqui",
+                "country": "CL",
+                "locations": 1,
+                "count": 40020
+                },
+                {
+                "city": "Saône-et-Loire",
+                "country": "FR",
+                "locations": 6,
+                "count": 39992
+                },
+                {
+                "city": "Concepción",
+                "country": "CL",
+                "locations": 1,
+                "count": 39929
+                },
+                {
+                "city": "Chatham",
+                "country": "GB",
+                "locations": 1,
+                "count": 39848
+                },
+                {
+                "city": "SACRAMENTO",
+                "country": "US",
+                "locations": 1,
+                "count": 39828
+                },
+                {
+                "city": "Algeciras",
+                "country": "ES",
+                "locations": 2,
+                "count": 39740
+                },
+                {
+                "city": "Asheville",
+                "country": "US",
+                "locations": 5,
+                "count": 39697
+                },
+                {
+                "city": "Knoxville",
+                "country": "US",
+                "locations": 6,
+                "count": 39667
+                },
+                {
+                "city": "Napa",
+                "country": "US",
+                "locations": 1,
+                "count": 39632
+                },
+                {
+                "city": "ALAMEDA",
+                "country": "US",
+                "locations": 1,
+                "count": 39567
+                },
+                {
+                "city": "Stanford-le-Hope",
+                "country": "GB",
+                "locations": 1,
+                "count": 39510
+                },
+                {
+                "city": "West Midlands",
+                "country": "GB",
+                "locations": 2,
+                "count": 39470
+                },
+                {
+                "city": "Etel\ufffd-Karjalan verkko",
+                "country": "FI",
+                "locations": 9,
+                "count": 39389
+                },
+                {
+                "city": "Harrisburg-Carlisle",
+                "country": "US",
+                "locations": 3,
+                "count": 39362
+                },
+                {
+                "city": "MADININAIR",
+                "country": "FR",
+                "locations": 10,
+                "count": 39275
+                },
+                {
+                "city": "Carlisle",
+                "country": "GB",
+                "locations": 1,
+                "count": 38917
+                },
+                {
+                "city": "Lancaster",
+                "country": "US",
+                "locations": 2,
+                "count": 38592
+                },
+                {
+                "city": "Linea De La Concepcion (La)",
+                "country": "ES",
+                "locations": 2,
+                "count": 38577
+                },
+                {
+                "city": "Jerez De La Frontera",
+                "country": "ES",
+                "locations": 2,
+                "count": 38321
+                },
+                {
+                "city": "Yakima",
+                "country": "US",
+                "locations": 2,
+                "count": 38182
+                },
+                {
+                "city": "Trenciansky kraj",
+                "country": "SK",
+                "locations": 4,
+                "count": 38132
+                },
+                {
+                "city": "AIR LANGUEDOC-ROUSSILLON",
+                "country": "FR",
+                "locations": 22,
+                "count": 38120
+                },
+                {
+                "city": "Nashville-Davidson--Murfreesboro",
+                "country": "US",
+                "locations": 7,
+                "count": 37805
+                },
+                {
+                "city": "HOWARD",
+                "country": "US",
+                "locations": 1,
+                "count": 37689
+                },
+                {
+                "city": "Carboneras",
+                "country": "ES",
+                "locations": 2,
+                "count": 37569
+                },
+                {
+                "city": "Alpes-Maritimes",
+                "country": "FR",
+                "locations": 10,
+                "count": 37524
+                },
+                {
+                "city": "Žilinský kraj",
+                "country": "SK",
+                "locations": 4,
+                "count": 37473
+                },
+                {
+                "city": "Harrisonburg",
+                "country": "US",
+                "locations": 1,
+                "count": 37463
+                },
+                {
+                "city": "DAKOTA",
+                "country": "US",
+                "locations": 1,
+                "count": 37460
+                },
+                {
+                "city": "Horst a/d Maas",
+                "country": "NL",
+                "locations": 1,
+                "count": 37387
+                },
+                {
+                "city": "Laren",
+                "country": "NL",
+                "locations": 1,
+                "count": 37384
+                },
+                {
+                "city": "Oude Meer",
+                "country": "NL",
+                "locations": 2,
+                "count": 37381
+                },
+                {
+                "city": "Fijnaart",
+                "country": "NL",
+                "locations": 1,
+                "count": 37380
+                },
+                {
+                "city": "Zierikzee",
+                "country": "NL",
+                "locations": 1,
+                "count": 37367
+                },
+                {
+                "city": "Posterholt",
+                "country": "NL",
+                "locations": 1,
+                "count": 37367
+                },
+                {
+                "city": "SKAGIT",
+                "country": "US",
+                "locations": 3,
+                "count": 37296
+                },
+                {
+                "city": "Piastów",
+                "country": "PL",
+                "locations": 1,
+                "count": 37166
+                },
+                {
+                "city": "MARIPOSA",
+                "country": "US",
+                "locations": 3,
+                "count": 37161
+                },
+                {
+                "city": "Antwerpen",
+                "country": "BE",
+                "locations": 23,
+                "count": 37101
+                },
+                {
+                "city": "Haute-Corse",
+                "country": "FR",
+                "locations": 5,
+                "count": 37084
+                },
+                {
+                "city": "Sandy",
+                "country": "GB",
+                "locations": 1,
+                "count": 37064
+                },
+                {
+                "city": "Cadillac",
+                "country": "US",
+                "locations": 1,
+                "count": 37062
+                },
+                {
+                "city": "York-Hanover",
+                "country": "US",
+                "locations": 2,
+                "count": 36913
+                },
+                {
+                "city": "Palm Bay-Melbourne-Titusville",
+                "country": "US",
+                "locations": 2,
+                "count": 36826
+                },
+                {
+                "city": "Legionowo",
+                "country": "PL",
+                "locations": 1,
+                "count": 36698
+                },
+                {
+                "city": "BELMONT",
+                "country": "US",
+                "locations": 1,
+                "count": 36519
+                },
+                {
+                "city": "Jaen",
+                "country": "ES",
+                "locations": 2,
+                "count": 36471
+                },
+                {
+                "city": "Seaford",
+                "country": "US",
+                "locations": 2,
+                "count": 36454
+                },
+                {
+                "city": "Cape Coral-Fort Myers",
+                "country": "US",
+                "locations": 3,
+                "count": 36358
+                },
+                {
+                "city": "CUSTER",
+                "country": "US",
+                "locations": 2,
+                "count": 36318
+                },
+                {
+                "city": "Setúbal",
+                "country": "PT",
+                "locations": 12,
+                "count": 36255
+                },
+                {
+                "city": "Giresun",
+                "country": "TR",
+                "locations": 1,
+                "count": 36145
+                },
+                {
+                "city": "Umweltinstitut des Landes Vorarlberg",
+                "country": "AT",
+                "locations": 9,
+                "count": 36108
+                }
+                ]
+}

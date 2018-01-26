@@ -12,12 +12,15 @@
 		4A02B7002018E38600B92AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A02B6FF2018E38600B92AF7 /* Assets.xcassets */; };
 		4A02B7032018E38600B92AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A02B7012018E38600B92AF7 /* LaunchScreen.storyboard */; };
 		4A02B70E2018E38600B92AF7 /* Air_QualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02B70D2018E38600B92AF7 /* Air_QualityTests.swift */; };
+		4A42BF0B201A941300AC91DF /* CitiesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42BF0A201A941300AC91DF /* CitiesListViewModelTests.swift */; };
+		4A42BF0D201A943F00AC91DF /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A42BF0C201A943F00AC91DF /* cities.json */; };
 		4A48A2B1201916FF00EC672A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2B0201916FF00EC672A /* City.swift */; };
 		4A48A2B4201919B700EC672A /* OpenAQService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2B3201919B700EC672A /* OpenAQService.swift */; };
 		4A48A2B920191A3B00EC672A /* CitiesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2B820191A3B00EC672A /* CitiesListTableViewController.swift */; };
 		4A48A2BC20191A5200EC672A /* CitiesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2BB20191A5200EC672A /* CitiesListViewModel.swift */; };
 		4A48A2BE2019310300EC672A /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2BD2019310300EC672A /* CityViewModel.swift */; };
 		4A48A2C1201940CC00EC672A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2C0201940CB00EC672A /* R.generated.swift */; };
+		4AE3EEEC201AAB6300B45F52 /* cities_minimum.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE3EEEB201AAB6300B45F52 /* cities_minimum.json */; };
 		A07FA1D067DCA0A8D62639F9 /* Pods_Air_QualityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB851B37DEA458E2F7FBF4 /* Pods_Air_QualityTests.framework */; };
 		C4D8278400FB230862067097 /* Pods_Air_Quality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A38AFF85DDD9A2A55DAA45 /* Pods_Air_Quality.framework */; };
 /* End PBXBuildFile section */
@@ -45,12 +48,15 @@
 		4A02B7092018E38600B92AF7 /* Air QualityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air QualityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A02B70D2018E38600B92AF7 /* Air_QualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_QualityTests.swift; sourceTree = "<group>"; };
 		4A02B70F2018E38600B92AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A42BF0A201A941300AC91DF /* CitiesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewModelTests.swift; sourceTree = "<group>"; };
+		4A42BF0C201A943F00AC91DF /* cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		4A48A2B0201916FF00EC672A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		4A48A2B3201919B700EC672A /* OpenAQService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAQService.swift; sourceTree = "<group>"; };
 		4A48A2B820191A3B00EC672A /* CitiesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListTableViewController.swift; sourceTree = "<group>"; };
 		4A48A2BB20191A5200EC672A /* CitiesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewModel.swift; sourceTree = "<group>"; };
 		4A48A2BD2019310300EC672A /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
 		4A48A2C0201940CB00EC672A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		4AE3EEEB201AAB6300B45F52 /* cities_minimum.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities_minimum.json; sourceTree = "<group>"; };
 		979DF065C6EC62A3D6E521C8 /* Pods-Air QualityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air QualityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests.release.xcconfig"; sourceTree = "<group>"; };
 		E1FC27E644DED67AEAD94709 /* Pods-Air Quality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Quality.release.xcconfig"; path = "Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality.release.xcconfig"; sourceTree = "<group>"; };
 		F03EC37B0DA202C63120A6BF /* Pods-Air QualityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air QualityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +134,9 @@
 			children = (
 				4A02B70D2018E38600B92AF7 /* Air_QualityTests.swift */,
 				4A02B70F2018E38600B92AF7 /* Info.plist */,
+				4A42BF0A201A941300AC91DF /* CitiesListViewModelTests.swift */,
+				4A42BF0C201A943F00AC91DF /* cities.json */,
+				4AE3EEEB201AAB6300B45F52 /* cities_minimum.json */,
 			);
 			path = "Air QualityTests";
 			sourceTree = "<group>";
@@ -291,6 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A42BF0D201A943F00AC91DF /* cities.json in Resources */,
+				4AE3EEEC201AAB6300B45F52 /* cities_minimum.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +329,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A02B70E2018E38600B92AF7 /* Air_QualityTests.swift in Sources */,
+				4A42BF0B201A941300AC91DF /* CitiesListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

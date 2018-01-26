@@ -1,0 +1,612 @@
+{
+    "meta": {
+        "name": "openaq-api",
+        "license": "CC BY 4.0",
+        "website": "https://docs.openaq.org/",
+        "page": 15,
+        "limit": 100,
+        "found": 2020
+    },
+    "results": [
+                {
+                "city": "LA PAZ",
+                "country": "US",
+                "locations": 1,
+                "count": 10397
+                },
+                {
+                "city": "NORTHWEST TERRITORIES",
+                "country": "CA",
+                "locations": 1,
+                "count": 10386
+                },
+                {
+                "city": "Gharb",
+                "country": "MT",
+                "locations": 1,
+                "count": 10382
+                },
+                {
+                "city": "YUKON-KOYUKUK",
+                "country": "US",
+                "locations": 1,
+                "count": 10380
+                },
+                {
+                "city": "Moscow",
+                "country": "US",
+                "locations": 1,
+                "count": 10370
+                },
+                {
+                "city": "Lincoln",
+                "country": "GB",
+                "locations": 1,
+                "count": 10363
+                },
+                {
+                "city": "Huaibei",
+                "country": "CN",
+                "locations": 3,
+                "count": 10360
+                },
+                {
+                "city": "Chuzhou",
+                "country": "CN",
+                "locations": 3,
+                "count": 10313
+                },
+                {
+                "city": "Almonte",
+                "country": "ES",
+                "locations": 1,
+                "count": 10269
+                },
+                {
+                "city": "Wenatchee",
+                "country": "US",
+                "locations": 1,
+                "count": 10261
+                },
+                {
+                "city": "Gainesville",
+                "country": "US",
+                "locations": 1,
+                "count": 10253
+                },
+                {
+                "city": "Dumfries",
+                "country": "GB",
+                "locations": 1,
+                "count": 10191
+                },
+                {
+                "city": "Xuancheng",
+                "country": "CN",
+                "locations": 3,
+                "count": 10130
+                },
+                {
+                "city": "Šiauliai",
+                "country": "LT",
+                "locations": 2,
+                "count": 10105
+                },
+                {
+                "city": "Sioux City",
+                "country": "US",
+                "locations": 1,
+                "count": 10105
+                },
+                {
+                "city": "Fuyang",
+                "country": "CN",
+                "locations": 3,
+                "count": 10062
+                },
+                {
+                "city": "Villanueva Del Arzobispo",
+                "country": "ES",
+                "locations": 1,
+                "count": 10015
+                },
+                {
+                "city": "VALLEY",
+                "country": "US",
+                "locations": 1,
+                "count": 10009
+                },
+                {
+                "city": "FLAGLER",
+                "country": "US",
+                "locations": 1,
+                "count": 9968
+                },
+                {
+                "city": "Campillos",
+                "country": "ES",
+                "locations": 1,
+                "count": 9931
+                },
+                {
+                "city": "CCAA Aragón",
+                "country": "ES",
+                "locations": 6,
+                "count": 9925
+                },
+                {
+                "city": "MANATEE",
+                "country": "US",
+                "locations": 1,
+                "count": 9915
+                },
+                {
+                "city": "NEZ PERCE",
+                "country": "US",
+                "locations": 1,
+                "count": 9910
+                },
+                {
+                "city": "Vaasan verkko",
+                "country": "FI",
+                "locations": 2,
+                "count": 9890
+                },
+                {
+                "city": "Utica-Rome",
+                "country": "US",
+                "locations": 2,
+                "count": 9889
+                },
+                {
+                "city": "Turun seudun verkko",
+                "country": "FI",
+                "locations": 2,
+                "count": 9854
+                },
+                {
+                "city": "Sebring",
+                "country": "US",
+                "locations": 1,
+                "count": 9776
+                },
+                {
+                "city": "SANDERS",
+                "country": "US",
+                "locations": 1,
+                "count": 9753
+                },
+                {
+                "city": "RANDOLPH",
+                "country": "US",
+                "locations": 1,
+                "count": 9709
+                },
+                {
+                "city": "ROCKLAND",
+                "country": "US",
+                "locations": 1,
+                "count": 9702
+                },
+                {
+                "city": "Creuse",
+                "country": "FR",
+                "locations": 2,
+                "count": 9678
+                },
+                {
+                "city": "SAN JUAN",
+                "country": "US",
+                "locations": 1,
+                "count": 9678
+                },
+                {
+                "city": "Crompton Way   OL2 8AQ",
+                "country": "GB",
+                "locations": 1,
+                "count": 9669
+                },
+                {
+                "city": "SCOTT",
+                "country": "US",
+                "locations": 1,
+                "count": 9627
+                },
+                {
+                "city": "Valladolid",
+                "country": "ES",
+                "locations": 8,
+                "count": 9624
+                },
+                {
+                "city": "Phoenix Lake-Cedar Ridge",
+                "country": "US",
+                "locations": 1,
+                "count": 9593
+                },
+                {
+                "city": "MILLE LACS",
+                "country": "US",
+                "locations": 1,
+                "count": 9593
+                },
+                {
+                "city": "Satakunta",
+                "country": "FI",
+                "locations": 2,
+                "count": 9556
+                },
+                {
+                "city": "Paijanne Tavastia",
+                "country": "FI",
+                "locations": 4,
+                "count": 9494
+                },
+                {
+                "city": "KANAWHA",
+                "country": "US",
+                "locations": 1,
+                "count": 9474
+                },
+                {
+                "city": "ST. LUCIE",
+                "country": "US",
+                "locations": 1,
+                "count": 9460
+                },
+                {
+                "city": "Red Wing",
+                "country": "US",
+                "locations": 1,
+                "count": 9437
+                },
+                {
+                "city": "Dalton",
+                "country": "US",
+                "locations": 1,
+                "count": 9401
+                },
+                {
+                "city": "Cheyenne",
+                "country": "US",
+                "locations": 2,
+                "count": 9331
+                },
+                {
+                "city": "São José do Rio Preto",
+                "country": "BR",
+                "locations": 1,
+                "count": 9323
+                },
+                {
+                "city": "Summerville",
+                "country": "US",
+                "locations": 1,
+                "count": 9310
+                },
+                {
+                "city": "Brunswick",
+                "country": "US",
+                "locations": 1,
+                "count": 9292
+                },
+                {
+                "city": "GRANVILLE",
+                "country": "US",
+                "locations": 1,
+                "count": 9280
+                },
+                {
+                "city": "PALM BEACH",
+                "country": "US",
+                "locations": 1,
+                "count": 9278
+                },
+                {
+                "city": "GRAHAM",
+                "country": "US",
+                "locations": 1,
+                "count": 9271
+                },
+                {
+                "city": "Tahlequah",
+                "country": "US",
+                "locations": 1,
+                "count": 9266
+                },
+                {
+                "city": "Hanford-Corcoran",
+                "country": "US",
+                "locations": 1,
+                "count": 9258
+                },
+                {
+                "city": "Laramie",
+                "country": "US",
+                "locations": 2,
+                "count": 9217
+                },
+                {
+                "city": "TANEY",
+                "country": "US",
+                "locations": 1,
+                "count": 9212
+                },
+                {
+                "city": "Truckee-Grass Valley",
+                "country": "US",
+                "locations": 2,
+                "count": 9211
+                },
+                {
+                "city": "Paulínia Sul",
+                "country": "BR",
+                "locations": 1,
+                "count": 9210
+                },
+                {
+                "city": "ANDREW",
+                "country": "US",
+                "locations": 1,
+                "count": 9202
+                },
+                {
+                "city": "Liepaja",
+                "country": "LV",
+                "locations": 1,
+                "count": 9189
+                },
+                {
+                "city": "Szabolcs-Szatmár-Bereg",
+                "country": "HU",
+                "locations": 1,
+                "count": 9147
+                },
+                {
+                "city": "Aveiro",
+                "country": "PT",
+                "locations": 4,
+                "count": 9130
+                },
+                {
+                "city": "Dumbarton",
+                "country": "GB",
+                "locations": 1,
+                "count": 9122
+                },
+                {
+                "city": "Sa Kaeo",
+                "country": "TH",
+                "locations": 1,
+                "count": 9101
+                },
+                {
+                "city": "CASCADE",
+                "country": "US",
+                "locations": 1,
+                "count": 9093
+                },
+                {
+                "city": "Jefferson City",
+                "country": "US",
+                "locations": 1,
+                "count": 9086
+                },
+                {
+                "city": "Brodsko-posavska",
+                "country": "HR",
+                "locations": 1,
+                "count": 9078
+                },
+                {
+                "city": "RAVALLI",
+                "country": "US",
+                "locations": 1,
+                "count": 9066
+                },
+                {
+                "city": "Helena",
+                "country": "US",
+                "locations": 1,
+                "count": 9053
+                },
+                {
+                "city": "Ponca City",
+                "country": "US",
+                "locations": 1,
+                "count": 8980
+                },
+                {
+                "city": "RAVENNA",
+                "country": "IT",
+                "locations": 2,
+                "count": 8964
+                },
+                {
+                "city": "PARMA",
+                "country": "IT",
+                "locations": 3,
+                "count": 8953
+                },
+                {
+                "city": "Athens",
+                "country": "US",
+                "locations": 2,
+                "count": 8921
+                },
+                {
+                "city": "South West",
+                "country": "GB",
+                "locations": 1,
+                "count": 8872
+                },
+                {
+                "city": "Lincolnton",
+                "country": "US",
+                "locations": 1,
+                "count": 8856
+                },
+                {
+                "city": "Yorkshire & Humberside",
+                "country": "GB",
+                "locations": 1,
+                "count": 8794
+                },
+                {
+                "city": "Loei",
+                "country": "TH",
+                "locations": 1,
+                "count": 8789
+                },
+                {
+                "city": "GALLATIN",
+                "country": "US",
+                "locations": 1,
+                "count": 8769
+                },
+                {
+                "city": "Cleveland",
+                "country": "US",
+                "locations": 1,
+                "count": 8767
+                },
+                {
+                "city": "Huntsville",
+                "country": "US",
+                "locations": 1,
+                "count": 8743
+                },
+                {
+                "city": "SHEBOYGAN",
+                "country": "US",
+                "locations": 2,
+                "count": 8741
+                },
+                {
+                "city": "Telšiai",
+                "country": "LT",
+                "locations": 2,
+                "count": 8720
+                },
+                {
+                "city": "STE GENEVIEVE",
+                "country": "US",
+                "locations": 1,
+                "count": 8715
+                },
+                {
+                "city": "Central Finland",
+                "country": "FI",
+                "locations": 2,
+                "count": 8691
+                },
+                {
+                "city": "Paducah",
+                "country": "US",
+                "locations": 2,
+                "count": 8669
+                },
+                {
+                "city": "Warner Robins",
+                "country": "US",
+                "locations": 1,
+                "count": 8669
+                },
+                {
+                "city": "Quincy",
+                "country": "US",
+                "locations": 1,
+                "count": 8665
+                },
+                {
+                "city": "Effingham",
+                "country": "US",
+                "locations": 1,
+                "count": 8645
+                },
+                {
+                "city": "Huntington",
+                "country": "US",
+                "locations": 1,
+                "count": 8643
+                },
+                {
+                "city": "Prestebakke",
+                "country": "NO",
+                "locations": 1,
+                "count": 8624
+                },
+                {
+                "city": "Billings",
+                "country": "US",
+                "locations": 1,
+                "count": 8612
+                },
+                {
+                "city": "BELTRAMI",
+                "country": "US",
+                "locations": 1,
+                "count": 8611
+                },
+                {
+                "city": "CAMERON",
+                "country": "US",
+                "locations": 1,
+                "count": 8608
+                },
+                {
+                "city": "Hurdal",
+                "country": "NO",
+                "locations": 1,
+                "count": 8577
+                },
+                {
+                "city": "Meridian",
+                "country": "US",
+                "locations": 1,
+                "count": 8577
+                },
+                {
+                "city": "Lillesand",
+                "country": "NO",
+                "locations": 1,
+                "count": 8576
+                },
+                {
+                "city": "Laconia",
+                "country": "US",
+                "locations": 1,
+                "count": 8531
+                },
+                {
+                "city": "Gers",
+                "country": "FR",
+                "locations": 2,
+                "count": 8490
+                },
+                {
+                "city": "Diekirch",
+                "country": "LU",
+                "locations": 2,
+                "count": 8483
+                },
+                {
+                "city": "HURON",
+                "country": "US",
+                "locations": 1,
+                "count": 8442
+                },
+                {
+                "city": "Georgetown",
+                "country": "US",
+                "locations": 1,
+                "count": 8426
+                },
+                {
+                "city": "La Grande",
+                "country": "US",
+                "locations": 3,
+                "count": 8409
+                }
+                ]
+}

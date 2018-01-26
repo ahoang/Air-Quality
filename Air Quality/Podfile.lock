@@ -3,6 +3,21 @@ PODS:
   - AlamofireImage (3.3.0):
     - Alamofire (~> 4.5)
   - Differentiator (3.0.2)
+  - OHHTTPStubs (6.1.0):
+    - OHHTTPStubs/Default (= 6.1.0)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - OHHTTPStubs/Swift (6.1.0):
+    - OHHTTPStubs/Default
   - PromiseKit (4.5.1):
     - PromiseKit/Foundation (= 4.5.1)
     - PromiseKit/QuartzCore (= 4.5.1)
@@ -31,6 +46,8 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - AlamofireImage (~> 3.3)
+  - OHHTTPStubs (~> 6.1.0)
+  - OHHTTPStubs/Swift
   - PromiseKit (~> 4.4)
   - R.swift (~> 4.0)
   - RxCocoa (~> 4.1)
@@ -44,6 +61,7 @@ SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
   PromiseKit: 445dac9b2c3c3b4b31b5f842bc325700b848a8bd
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
@@ -54,6 +72,6 @@ SPEC CHECKSUMS:
   SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: ebbdfee4d4acd2a729e3235b4ae92f3e39404bfc
+PODFILE CHECKSUM: 845b0a66b7f3fcc9a0e6ae1facef2c37ddcf6d9a
 
 COCOAPODS: 1.4.0.beta.2
