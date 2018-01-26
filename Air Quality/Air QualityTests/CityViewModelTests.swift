@@ -27,7 +27,7 @@ class CityViewModelTests: XCTestCase {
         let data: [String : Any] = ["city" : "Chicago", "country" : "US", "count" : 678921]
         let json = JSON(data)
         if let city = City(json: json) {
-            let viewModel = CityViewModel(city: city)
+            let viewModel = CityCellViewModel(city: city)
             XCTAssertEqual(viewModel.measurements ?? "", "Number of measurements: 678,921")
         } else {
             XCTFail()

@@ -1,5 +1,5 @@
 //
-//  CityViewModel.swift
+//  CityCellViewModel.swift
 //  Air Quality
 //
 //  Created by Anthony Hoang on 1/24/18.
@@ -9,7 +9,7 @@
 import Foundation
 import RxDataSources
 
-class CityViewModel {
+class CityCellViewModel {
     fileprivate var city: City
 
     var name: String {
@@ -33,14 +33,14 @@ class CityViewModel {
     }
 }
 
-extension CityViewModel: Equatable {
-    static func ==(lhs: CityViewModel, rhs: CityViewModel) -> Bool {
+extension CityCellViewModel: Equatable {
+    static func ==(lhs: CityCellViewModel, rhs: CityCellViewModel) -> Bool {
         return lhs.city == rhs.city
 
     }
 }
 
-extension CityViewModel: IdentifiableType {
+extension CityCellViewModel: IdentifiableType {
 
     var identity: String {
         return city.name + city.country

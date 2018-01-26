@@ -73,16 +73,18 @@ extension CitiesListTableViewController {
 
     private func bindTableData() {
 
-        typealias DataType = AnimatableSectionModel<Section, CityViewModel>
+        typealias DataType = AnimatableSectionModel<Section, CityCellViewModel>
 
         let dataSource = RxTableViewSectionedAnimatedDataSource<DataType>(
-            configureCell: { _, tableView, indexPath, model in
+            configureCell: { _, tableView, indexPath, viewModel in
                 let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.cityCell, for: indexPath)
 
-                cell?.textLabel?.text = model.name
-                cell?.detailTextLabel?.text = model.measurements
+                cell?.textLabel?.text = viewModel.name
+                cell?.detailTextLabel?.text = viewModel.measurements
                 return cell ?? UITableViewCell()
         })
+
+        dataSource.animationConfiguration = AnimationConfiguration(insertAnimation: .bottom, reloadAnimation: .none, deleteAnimation: .left)
 
         tableView.dataSource = nil
 

@@ -18,8 +18,8 @@ class CitiesListViewModel {
     private var queue: DispatchQueue
     private var loadNextPage = true
     
-    var rxCities: Observable<[CityViewModel]> {
-        return cities.asObservable().map({ $0.map({ CityViewModel(city: $0 )}) })
+    var rxCities: Observable<[CityCellViewModel]> {
+        return cities.asObservable().map({ $0.map({ CityCellViewModel(city: $0 )}) })
     }
 
     private var error = Variable<String?>(nil)
