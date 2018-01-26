@@ -18,7 +18,6 @@
 		4A48A2B920191A3B00EC672A /* CitiesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2B820191A3B00EC672A /* CitiesListTableViewController.swift */; };
 		4A48A2BC20191A5200EC672A /* CitiesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2BB20191A5200EC672A /* CitiesListViewModel.swift */; };
 		4A48A2BE2019310300EC672A /* CityCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2BD2019310300EC672A /* CityCellViewModel.swift */; };
-		4A48A2C1201940CC00EC672A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48A2C0201940CB00EC672A /* R.generated.swift */; };
 		4AE3EEEC201AAB6300B45F52 /* cities_minimum.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE3EEEB201AAB6300B45F52 /* cities_minimum.json */; };
 		4AE3EEEE201AAD4000B45F52 /* CityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3EEED201AAD4000B45F52 /* CityViewModelTests.swift */; };
 		A07FA1D067DCA0A8D62639F9 /* Pods_Air_QualityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB851B37DEA458E2F7FBF4 /* Pods_Air_QualityTests.framework */; };
@@ -54,7 +53,6 @@
 		4A48A2B820191A3B00EC672A /* CitiesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListTableViewController.swift; sourceTree = "<group>"; };
 		4A48A2BB20191A5200EC672A /* CitiesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewModel.swift; sourceTree = "<group>"; };
 		4A48A2BD2019310300EC672A /* CityCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCellViewModel.swift; sourceTree = "<group>"; };
-		4A48A2C0201940CB00EC672A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		4AE3EEEB201AAB6300B45F52 /* cities_minimum.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities_minimum.json; sourceTree = "<group>"; };
 		4AE3EEED201AAD4000B45F52 /* CityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModelTests.swift; sourceTree = "<group>"; };
 		979DF065C6EC62A3D6E521C8 /* Pods-Air QualityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air QualityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 		4A02B6F72018E38600B92AF7 /* Air Quality */ = {
 			isa = PBXGroup;
 			children = (
-				4A48A2C0201940CB00EC672A /* R.generated.swift */,
 				4A48A2B520191A0100EC672A /* Scenes */,
 				4A48A2B22019199F00EC672A /* Service */,
 				4A48A2AF2019169400EC672A /* Models */,
@@ -213,7 +210,6 @@
 				4A02B6F32018E38600B92AF7 /* Resources */,
 				7F98F4BD0A0FD31FC29475AE /* [CP] Embed Pods Frameworks */,
 				2C3CEB5585985023048E532A /* [CP] Copy Pods Resources */,
-				4A48A2BF20193FEE00EC672A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -331,14 +327,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
@@ -346,14 +339,11 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
@@ -363,19 +353,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Air QualityTests/Pods-Air QualityTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4A48A2BF20193FEE00EC672A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
-		};
 		7F98F4BD0A0FD31FC29475AE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,28 +361,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Air Quality/Pods-Air Quality-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -473,7 +444,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A02B6F92018E38600B92AF7 /* AppDelegate.swift in Sources */,
-				4A48A2C1201940CC00EC672A /* R.generated.swift in Sources */,
 				4A48A2BE2019310300EC672A /* CityCellViewModel.swift in Sources */,
 				4A48A2B1201916FF00EC672A /* City.swift in Sources */,
 				4A48A2B920191A3B00EC672A /* CitiesListTableViewController.swift in Sources */,

@@ -77,11 +77,11 @@ extension CitiesListTableViewController {
 
         let dataSource = RxTableViewSectionedAnimatedDataSource<DataType>(
             configureCell: { _, tableView, indexPath, viewModel in
-                let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.cityCell, for: indexPath)
+                let cell = tableView.dequeueReusableCell(withIdentifier: "CityCell", for: indexPath)
 
-                cell?.textLabel?.text = viewModel.name
-                cell?.detailTextLabel?.text = viewModel.measurements
-                return cell ?? UITableViewCell()
+                cell.textLabel?.text = viewModel.name
+                cell.detailTextLabel?.text = viewModel.measurements
+                return cell
         })
 
         dataSource.animationConfiguration = AnimationConfiguration(insertAnimation: .bottom, reloadAnimation: .none, deleteAnimation: .left)

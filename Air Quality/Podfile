@@ -4,7 +4,6 @@ target 'Air Quality' do
   use_frameworks!
 
   pod 'Alamofire', '~> 4.5'
-  pod 'R.swift', '~> 4.0'
   pod 'PromiseKit', '~> 4.4'
   pod 'RxSwift', '~> 4.1'
   pod 'RxCocoa', '~> 4.1'
