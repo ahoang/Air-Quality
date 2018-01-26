@@ -55,8 +55,9 @@ class CitiesListTableViewController: UITableViewController {
 
 extension CitiesListTableViewController {
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        // get next page once user is half way down
-        if indexPath.row == tableView.numberOfRows(inSection: indexPath.section) / 2 {
+        // adding a buffer for grabbing next page, so the user doesn't have to see the new rows inserted into the table. better user experience
+        if (indexPath.row == tableView.numberOfRows(inSection: indexPath.section) / 2) // get next page once the user is half way down the current page
+            || (indexPath.row == tableView.numberOfRows(inSection: indexPath.section) - 1) { // sometimes the user scrolls too fast and we miss the halfway point while previous request is still working, if user makes it to bottom of table then get next page.
             self.viewModel.nextPageIfNeeded()
         }
     }
