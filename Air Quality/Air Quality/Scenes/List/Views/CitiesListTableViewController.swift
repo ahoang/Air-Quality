@@ -80,8 +80,8 @@ extension CitiesListTableViewController {
             configureCell: { _, tableView, indexPath, viewModel in
                 let cell = tableView.dequeueReusableCell(withIdentifier: "CityCell", for: indexPath)
 
-                cell.textLabel?.text = viewModel.name
-                cell.detailTextLabel?.text = viewModel.measurements
+                cell.textLabel?.text = viewModel.titleText
+                cell.detailTextLabel?.text = viewModel.subtitleText
                 return cell
         })
 

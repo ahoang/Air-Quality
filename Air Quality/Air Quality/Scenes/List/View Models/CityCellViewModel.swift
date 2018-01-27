@@ -12,11 +12,11 @@ import RxDataSources
 class CityCellViewModel {
     fileprivate var city: City
 
-    var name: String {
+    var titleText: String {
         return city.name + ", " + city.country
     }
 
-    var measurements: String? {
+    var subtitleText: String? {
         return "Number of measurements: " + formatNumber(city.measurements)
     }
 
